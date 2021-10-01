@@ -4,10 +4,6 @@ from fizz_buzz import fizz_buzz
 
 
 class TestFizzBuzz(unittest.TestCase):
-    def test_one_returns_one(self):
-        result = fizz_buzz(1)
-        self.assertEqual(result, 1)
-
     def test_three_returns_fizz(self):
         result = fizz_buzz(3)
         self.assertEqual(result, 'Fizz')
